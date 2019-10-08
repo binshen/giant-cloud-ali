@@ -1,0 +1,6 @@
+# Project exclude paths
+/giant-cloud-common/target/
+/giant-cloud-service/gaint-cloud-dubbo-client/target/
+/giant-cloud-service/giant-cloud-dubbo/target/
+/giant-cloud-service/giant-cloud-stream/target/
+/giant-cloud-service/giant-service-web/target/
