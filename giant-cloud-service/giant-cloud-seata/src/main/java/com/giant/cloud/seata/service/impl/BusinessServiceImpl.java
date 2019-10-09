@@ -21,7 +21,7 @@ public class BusinessServiceImpl implements BusinessService {
         LOGGER.info("purchase begin ... xid: " + RootContext.getXID());
         storageService.deduct(commodityCode, orderCount);
         orderService.create(userId, commodityCode, orderCount);
-        throw new RuntimeException("xxx");
+        throw new RuntimeException("程序运行期出现异常，代码回滚");
     }
 
     public void setStorageService(StorageService storageService) {
