@@ -3,7 +3,7 @@ package com.giant.cloud.seata.starter;
 import com.giant.cloud.seata.service.BusinessService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class BusinessServiceStarter {
+public class Dubbo4BusinessServiceStarter {
 
     public static void main(String[] args) {
         /**

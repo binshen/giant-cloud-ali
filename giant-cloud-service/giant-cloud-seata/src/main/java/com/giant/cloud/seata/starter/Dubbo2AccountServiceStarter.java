@@ -4,7 +4,7 @@ import com.giant.cloud.seata.ApplicationKeeper;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class AccountServiceStarter {
+public class Dubbo2AccountServiceStarter {
 
     /**
      * 2. Account service is ready . A buyer register an account: U100001 on my e-commerce platform

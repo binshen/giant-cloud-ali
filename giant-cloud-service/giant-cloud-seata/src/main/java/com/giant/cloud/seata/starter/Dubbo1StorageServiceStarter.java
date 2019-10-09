@@ -4,7 +4,7 @@ import com.giant.cloud.seata.ApplicationKeeper;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-public class StorageServiceStarter {
+public class Dubbo1StorageServiceStarter {
 
     /**
      * 1. Storage service is ready . A seller add 100 storage to a sku: C00321
