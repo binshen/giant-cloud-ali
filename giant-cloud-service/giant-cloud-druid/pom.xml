@@ -12,10 +12,16 @@
     <artifactId>giant-cloud-druid</artifactId>
 
     <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba</groupId>-->
+<!--            <artifactId>druid-spring-boot-starter</artifactId>-->
+<!--            <version>1.1.20</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.20</version>
+            <artifactId>druid</artifactId>
+            <version>1.1.12</version>
         </dependency>
 
         <dependency>
